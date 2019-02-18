@@ -1,0 +1,89 @@
+/* 
+* @Author: anchen
+* @Date:   2017-11-27 19:47:17
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-11-27 21:25:03
+*/
+
+.h_bg-box {
+    min-height: 18.5rem;
+}
+.h_content-box {
+    min-height: 12.55rem;
+}
+/**搜素框**/
+.h_search-big-box {
+    padding: 1rem 0;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.h_search-big-box > span:first-child {
+    position: absolute;
+    top: -0.20rem;
+    right: 0;
+}
+.h_search-big-box > span:first-child > a {
+    color: rgb(0,0,0);
+}
+.h_search-big-box>div{
+    width: 4.26rem;
+    margin: 0 auto;
+    position: relative;
+}
+.h_search-big-box>div>img{
+
+    display: inline-block;
+    float: left;
+    margin: 0.16rem 0.06rem 0 0;
+    cursor: pointer;
+}
+.h_search-big-box div form {
+    width: 3.95rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    float: left;
+    border: 0.03rem solid rgb(122,198,131);
+}
+.h_search-big-box  form > button,
+.h_search-big-box form > input {
+    float: left;
+    height: 100%;
+    outline: none;
+}
+.h_search-big-box form > input {
+    padding: 0 0.1rem;
+    width: 2.8rem;
+}
+.h_search-big-box  form > button {
+    width: 1.09rem;
+    cursor: pointer;
+    font-size: 0.2rem;
+    font-weight: 300;
+    color: rgb(255,255,255);
+    background-color: rgb(122,198,131);
+}
+/* 搜索菜单 */
+.h_search-box-nav{
+     position: absolute;
+    top: 0;
+    left: -1rem;
+    padding: 0.1rem;
+    background-color: #fafafa;
+    border:0.01rem solid #ddd;
+    border-radius: 0.02rem;
+    box-shadow: 0.02rem 0.02rem 0.03rem #ddd;
+    display: none;
+   
+}
+.h_search-box-nav>li{
+
+    color: #595959;
+    font-size: 0.14rem;
+    padding: 0.04rem 0.02rem;
+    text-align:right;
+}
+.h_search-box-nav>li:hover{
+    cursor: pointer;
+   color:rgb(122,198,131);
+
+}

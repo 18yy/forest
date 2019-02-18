@@ -1,0 +1,113 @@
+/* 
+* @Author: anchen
+* @Date:   2017-11-27 22:19:36
+* @Last Modified by:   Erin
+* @Last Modified time: 2017-12-03 02:00:41
+*/
+html{
+    background: #173935;
+}
+.h_bg-box {
+    min-height: 18.5rem;
+}
+.h_content-box {
+    min-height: 15.25rem;
+}
+/* 当前位置 */
+.h_content-box>span{
+    position: absolute;
+    top: 0.4rem;
+    right: 0.7rem;
+
+}
+.h_content-box>span a{
+    color: rgb(0,0,0);
+}
+/* 搜索主体 */
+.h_big-search-box{
+    width: 8.38rem;
+    height: 5.80rem;
+    padding-top: 1.08rem;
+    text-align: center;
+}
+/**字母abc**/
+.world-active{
+    color: rgb(122,198,131);
+}
+.h_big-search-box{
+    font-size: 0.18rem;
+    color: #999999;
+}
+.h_big-search-box>p>span{
+    padding: 0 0.04rem;
+    cursor: pointer;
+}
+.h_big-search-box>p>span:first-child{
+    margin-left: 0.08rem;
+}
+/* 植物类型 */
+.h_type-search-box{
+    width: 100%;
+    height: 3.46rem;
+    margin-top: 0.3rem;
+}
+
+.h_big-search-box>p>span:hover{
+    color: rgb(122,198,131);
+    cursor: pointer;
+}
+.h_type-search-box{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.h_type-search-box>ul>li>a{
+    color:  rgb(122,198,131);
+    font-size: 0.18rem;
+}
+/* 查找输入框 */
+.h_input-search-box{
+    width: 100%;
+    height: 1.24rem;
+    color: #999999;
+    font-size: 0.15rem;
+    padding: 0.3rem 0;
+ 
+   
+}
+.h_input-search-box>div{
+
+    display: flex;
+    padding: 0.04rem 0;
+
+}
+
+.h_input-search-box input{
+    flex:1;
+    border-bottom: 0.01rem solid #999999;
+    height: 0.23rem;
+    outline: none;
+    text-indent: 0.1rem;
+    color: #999999;
+}
+/* 按钮 */
+.h_big-search-box>button{
+    margin: 0.4rem 0.16rem 0 0;
+    float: right;
+    font-size: 0.18rem;
+    font-family: 方正兰亭超细;
+    width: 1.05rem;
+    height: 0.36rem;
+    background:rgb(122,198,131);
+    color: white;
+    border-radius: 0.25rem; 
+    cursor: pointer;
+    outline: none;
+}
+.h_big-search-box>button:active{
+    margin-top: 0.43rem;
+}
+/* 表格 */
+.h_table-box{
+    margin-top:2rem;
+}

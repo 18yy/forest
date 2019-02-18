@@ -1,0 +1,270 @@
+/**
+ * 表单页面背景长图
+ */
+.h_bg-box {
+	background-color: rgb(23,57,53);
+	position: relative;
+	/*min-height: 22.39rem;*/
+}
+.h_bg-box > img:first-child {
+	width: 100%;
+	/*height: 100%;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.h_bg-box > img:last-child {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 30;
+}
+
+.h_bg-box > .h_content-box {
+	position: absolute;
+	width: 9.7rem;
+	top: 4.1rem;
+	left: 50%;
+	padding: 0.6rem;
+	background-color: rgb(255,255,255);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 20;
+}
+
+
+/**
+ * 搜索
+ */
+.h_search-box {
+	padding: 1rem 0;
+	position: relative;
+	text-align: center;
+}
+.h_search-box > form {
+	width: 4.83rem;
+	height: 0.34rem;
+	line-height: 0.34rem;
+	margin: 0 auto;
+	border: 0.03rem solid rgb(122,198,131);
+}
+.h_search-box > form > button,
+.h_search-box > form > input {
+	float: left;
+	height: 100%;
+	outline: none;
+}
+.h_search-box > form > input {
+	padding: 0 0.1rem;
+	width: 3.65rem;
+}
+.h_search-box > form > button {
+	width: 1.12rem;
+	cursor: pointer;
+	font-size: 0.2rem;
+	font-weight: 300;
+	color: rgb(255,255,255);
+	background-color: rgb(122,198,131);
+}
+
+/**
+ * 小关键字
+ */
+.h_small-keyword {
+	display: inline-block;
+	/*width: 4.83rem;*/
+	/*margin: 0 auto;	*/
+}
+.h_small-keyword > li {
+	float: left;
+
+}
+.h_small-keyword > li > a {
+	font-size: 0.14rem;
+	color: rgb(180,180,180);
+	padding: 0 0.17rem;
+	position: relative;
+}
+.h_small-keyword > li > a:after {
+	position: absolute;
+	right: 0;
+	top: 0.04rem;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0.13rem;
+	border-right: 0.01rem solid rgb(136,136,136);
+}
+.h_small-keyword > li > .h_first-small-keyword {
+	padding-left: 0;
+}
+.h_small-keyword > li > .h_last-small-keyword:after {
+	border: none;
+}
+
+/**
+ * 树种百科面包屑
+ */
+.h_search-box > span:first-child,
+.h_search-box > span:last-child {
+	font-size: 0.14rem;
+	color: rgb(56,56,56);
+	position: absolute;
+}
+.h_search-box > span:first-child {
+	top: -0.20rem;
+	right: 0;
+}
+.h_search-box > span:last-child {
+	bottom: 0.1rem;
+	left: 0;
+}
+.h_search-box > span > span {
+	color: rgb(0,0,0);
+}
+.h_search-box > span:first-child > a {
+	color: rgb(0,0,0);
+}
+.h_search-box > span:first-child > a:hover {
+	text-decoration: underline;
+}
+
+/**
+ * 表格
+ */
+.h_table-box {
+	border-top: 0.03rem solid rgb(122,198,131);
+}
+.h_table-box > ul > li {
+	height: 0.26rem;
+	line-height: 0.26rem;
+}
+
+.h_table-box > ul > li > span {
+	/*text-align: center;*/
+	float: left;
+	font-size: 0.1278rem;
+	padding: 0 0.04rem;
+}
+.h_table-box > ul > li > span:nth-child(1) {
+	width: 1.9rem;
+}
+.h_table-box > ul > li > span:nth-child(2) {
+	width: 0.6rem;
+}
+.h_table-box > ul > li > span:nth-child(3) {
+	width: 0.62rem;
+}
+.h_table-box > ul > li > span:nth-child(4) {
+	width: 3.22rem;
+}
+.h_table-box > ul > li > span:nth-child(5) {
+	width: 0.8rem;
+}
+.h_table-box > ul > li > span:nth-child(6) {
+	width: 1rem;
+}
+.h_table-box > ul > li > span:nth-child(7) {
+	width: 0.36rem;
+}
+.h_table-box > ul > li > span > a {
+	color: rgb(120,183,129);
+}
+.h_table-box > ul > li > span > a:hover {
+	text-decoration: underline;
+}
+.h_table-box > ul > li > span:nth-child(1) > a {
+	margin-left: 0.04rem;
+}
+
+.h_table-box > ul > li:nth-child(odd) {
+	background-color: rgb(244,244,244);
+}
+.h_table-box > ul > li:nth-child(1) {
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+.h_table-box > ul > li:nth-child(1) > span {
+	font-size: 0.138rem;
+}
+.h_table-box > ul > li:first-child:hover {
+	background-color: rgb(244,244,244);
+}
+.h_table-box > ul > li:hover {
+	background-color: rgb(183,221,187);
+}
+
+/**
+ * logo和简要描述
+ */
+.h_foot-logo-box {
+	padding: 1.3rem 0 0.7rem;
+}
+.h_foot-logo-box > img {
+	display: block;
+	margin: 0 auto;
+}
+.h_foot-logo-box > p {
+	width: 5.2rem;
+	margin: 0.15rem auto;
+	font-size: 0.12rem;
+	color: rgb(167,174,173);
+}
+
+/**
+ * 页面底部
+ */
+.h_footer-box {
+	padding: 0.4rem 2.3rem;
+	color: rgb(89,89,89);
+}
+.ul1{
+	text-align: center;
+}
+.ul1 > li {
+	display: inline-block;
+	text-align: center;
+	margin-right: 0.3rem;
+}
+.ul1 > li:last-child {
+	margin-right: 0;
+}
+.ul2 {
+	width: 4.6rem;
+	margin: 0.3rem auto 0.5rem auto;
+	position: relative;
+}
+.ul2 > span {
+	position: absolute;
+	top: 0;
+	left: -0.7rem;
+}
+.ul2 > li > div,
+.ul2 > li > i {
+	float: left;
+}
+.ul2 > li > i {
+	font-size: 0.2rem;
+	color: rgb(122,198,131);
+	padding: 0 0.05rem;
+}
+.h_footer-box > p {
+	text-align: center;
+}
+.h_footer-box > p:last-child {
+	font-family: 'Tw Cen MT';
+	font-weight: 600;
+}
+
+/**
+ * 分类查询
+ */
+
+ @media screen and (min-width:1600px){
+    .h_bg-box > .h_content-box{
+        top: 5.1rem;
+    }
+}

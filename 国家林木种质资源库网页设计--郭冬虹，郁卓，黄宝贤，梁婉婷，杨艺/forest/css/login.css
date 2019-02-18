@@ -1,0 +1,163 @@
+/* 
+* @Author: anchen
+* @Date:   2017-11-30 09:37:14
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-11-30 12:33:55
+*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+}
+.L_header {
+    height: 0.75rem;
+    width: 100%;
+    background: url(../img/striated_bg.png);
+    position: relative;
+    z-index: 2;
+}
+.L_header>img {
+    height: 0.38rem;
+    width: 0.4rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.19rem;
+    margin-left: 5%;
+}
+.L_header p {
+    display: inline-block;
+    line-height: 0.75rem;
+    margin-left: 11%;
+    font-size: 0.18rem;
+    font-family: "方正清刻本悦宋简体";
+    color: #999;
+}
+.L_header>span {
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    font-size: 0.13rem;
+}
+.L_header>span>a {
+    font-size: 0.12rem;
+    color: #666666;
+    text-decoration: underline;
+}
+/* 中间主体 */
+
+.l_mainbody {
+    width: 100%;
+    height: 77%;
+    background: url(../img/tree_big_logo.png) no-repeat right;
+}
+.l_left-box {
+    width: 20%;
+    height: 100%;
+    background: rgba(68, 107, 91, 0.6);
+    float: left;
+    border: 0.01rem solid rgb(169, 184, 183);
+}
+.l_right-box {
+    width: 79.5%;
+    height: 100%;
+    background: rgba(68, 107, 91, 0.6);
+    float: right;
+    border: 0.01rem solid rgb(169, 184, 183);
+}
+.l_menu {
+    height: 0.4rem;
+    background: rgba(68, 107, 91, 0.3);
+    border: 0.01rem solid rgb(169, 184, 183);
+}
+.l_menu p {
+    color: white;
+    line-height: 0.4rem;
+    font-family: "方正清刻本悦宋简体";
+    padding: 0 0.04rem;
+}
+.l_footer {
+    height: 0.5rem;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l_footer>span {
+    text-indent: 0.25rem;
+    font-family: Tw Cen MT;
+    font-size: 0.12rem;
+    color: #666666;
+}
+/* 登陆框 */
+
+.login-big-box {
+    width: 4rem;
+    height: 2.2rem;
+    background: white;
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -1.2rem 0 0 -2rem;
+    border-radius: 0.1rem;
+    color: #999;
+    font-size: 0.14rem;
+    padding: 0.04rem 0.09rem;
+    border: 0.01rem solid #ddd;
+    padding: 0.14rem;
+}
+.login-big-box p {
+    font-size: 0.16rem;
+    font-family: "方正清刻本悦宋简体";
+}
+.login-box {
+    width: 3.8rem;
+    height: 1.8rem;
+    padding-top: 0.2rem;
+    left: 50%;
+    margin-left: -1.9rem;
+    position: absolute;
+    bottom: 0.1rem;
+    color: #333;
+}
+.login-box div {
+    width: 3rem;
+    margin: 0 auto;
+    padding: 0.1rem;
+    font-size: 0.13rem;
+}
+.login-box input {
+    width: 2.2rem;
+    height: 0.25rem;
+    border: 0.01rem solid #999;
+    /*  border-radius: 0.1rem; */
+}
+.login-box button {
+    padding: 0.05rem 0.07rem;
+    border-radius: 0.25rem;
+    margin: 0.2rem 0.08rem;
+    border: 0.013333rem solid rgba(68, 107, 91, 0.9);
+    background: rgba(68, 107, 91, 0.9);
+    color: white;
+    font-size: 0.13rem;
+    cursor: pointer;
+}
+.login-box button:hover {
+    background: #446561;
+}
+.mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}

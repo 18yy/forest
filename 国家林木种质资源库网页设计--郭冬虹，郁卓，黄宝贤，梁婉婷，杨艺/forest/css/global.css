@@ -1,0 +1,45 @@
+html {
+	font-size: 100px;/*1rem=100px*/
+    background-color: rgb(255,255,255);
+}
+body {
+    font-size: 0.16rem;
+    position: relative;
+}
+/*清除浮动*/
+.clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+/*多行文本截断*/
+.cut-text {
+    overflow: hidden;
+    display: -webkit-box!important;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    height: 26px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;/*超过两行出现省略号*/
+}
+.cutT{
+  overflow: hidden;
+
+}
+/* 字体 */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "方正清刻本悦宋简体";
+  src: url("方正清刻本悦宋简体.woff2") format("woff2"),
+       url("方正清刻本悦宋简体.woff") format("woff"),
+       url("方正清刻本悦宋简体.ttf") format("truetype"),
+       url("方正清刻本悦宋简体.eot") format("embedded-opentype"),
+       url("方正清刻本悦宋简体.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

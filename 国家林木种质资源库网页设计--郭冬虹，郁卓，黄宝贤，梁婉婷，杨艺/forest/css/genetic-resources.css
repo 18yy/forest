@@ -1,0 +1,123 @@
+/* 
+* @Author: anchen
+* @Date:   2017-11-16 19:42:46
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-12-04 20:48:41
+*/
+
+html, body {
+    background: rgb(23, 57, 53);
+}
+/* 文章部分大盒子
+ */
+
+.a_acticle-box {
+    width: 9.74rem;
+    position: absolute;
+    background: white;
+    top: 5.36rem;
+    left: 50%;
+    margin-left: -4.87rem;
+    margin-bottom: 2.46rem;
+}
+.a_acticle-box>ul {
+    margin: 0.90rem 1.35rem 0 1.35rem;
+    padding: 0 0.16rem;
+}
+/* 标题 */
+
+.a_title {
+    text-align: center;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #000;
+    font-family: "方正清刻本悦宋简体";
+}
+/* 关键字 */
+
+.a_keywd-box {
+    text-align: center;
+    margin-top: 0.32rem;
+    margin-bottom: 0.08rem;
+}
+.a_keywd-box p {
+    font-size: 0.14rem;
+}
+.a_keywd-box>p{
+     font-family: "方正清刻本悦宋简体";
+}
+.a_keywd-box>p>span {
+    display: inline-block;
+    background: rgb(122, 198, 132);
+    margin-left: 0.1rem;
+    color: white;
+    padding: 0.01rem 0.06rem;
+    border-radius: 10%;
+}
+/* 文章导航：发布信息，信息来源 */
+.a_content-nav {
+    height: 0.3rem;
+    background: rgb(237, 237, 237);
+    text-align: center;
+    line-height: 0.3rem;
+}
+.a_content-nav span {
+     font-family: "方正清刻本悦宋简体";
+    margin: 0 10px;
+    font-size: 0.14rem;
+    color: rgb(139, 139, 139);
+}
+/* 文章部分 */
+
+.a_content-acticle {
+    line-height: 0.28rem;
+    font-size: 0.16rem;
+    padding: 0.26rem 0;
+    color: #333333;
+}
+.a_content-acticle p {
+    margin-bottom: 20px;
+    text-indent: 2em;
+}
+.a_content-acticle img {
+    width: 6rem;
+}
+/* 上一篇下一篇 */
+.a_next-pre-box {
+    margin: 0.58rem 1.35rem 1.05rem 1.35rem;
+    height: 0.21rem;
+    line-height: 0.21rem;
+}
+.a_next-pre-box a {
+    font-size: 0.14rem;
+    color: #333333;
+    font-family: 微软雅黑;
+   
+}
+.a_pre {
+    float: left;
+}
+.a_next {
+    float: right;
+}
+.seed-img {
+    position: absolute;
+    height: 3.59rem;
+    width: 3.67rem;
+    z-index: 99;
+    right: 0;
+    top: 19.5rem;
+}
+
+/* .a_footer{
+    width: 100%;
+    height: 3.10rem;
+    background: white;
+
+} */
+#new1-seed {
+    top: 10.3rem;
+}
+#new2-seed {
+    top: 54.6rem;
+}

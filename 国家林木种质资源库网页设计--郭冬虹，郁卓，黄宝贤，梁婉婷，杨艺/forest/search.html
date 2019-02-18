@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>全站搜索</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link href="img/tree_logo.png" rel="shortcut icon" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/global.css" />
+        <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+        <link rel="stylesheet" type="text/css" href="css/index_header.css" />
+        <link rel="stylesheet" href="css/search.css" />
+        <link rel="stylesheet" href="css/footer2.css" />
+        <link rel="stylesheet" href="css/table.css" />
+    </head>
+    <style>
+        @media screen and (min-width:1600px){
+            .h_bg-box > .h_content-box{
+                top: 5.1rem;
+            }
+        }
+    </style>
+    <body>
+        <!-- 顶部 -->
+        <div class="h_header-box">
+            <img src="img/header_bg.png" alt="logo_bg" />
+            <div class="h_login-register-box">
+                <a href="login.html">登录</a>/<a href="login.html">注册</a>
+            </div>
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="h_nav-box clearfix">
+            <ul class="clearfix">
+                <li class="h_first-nav ">
+                    <a href="index.html">网站首页</a>
+                </li>
+                <li class="h_first-nav">
+                    <a href="map.html">种质地图</a>
+                </li>
+                <li class="h_first-nav h_first-nav-active">
+                    <a href="search.html">搜索</a>
+                    <div class="h_second-nav">
+                        <ul>
+                            <li class='h_active'>
+                                <a href="search.html">全站搜索</a>
+                            </li>
+                            <li>
+                                <a href="screening2.html">首字母搜索</a>
+                            </li>
+                            <li>
+                                <a href="openShareDir.html">分类查询</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="h_first-nav">
+                    <a href="#">种质资源</a>
+                    <div class="h_second-nav">
+                        <ul>
+                            <li>
+                                <a href="login.html">资源调查</a>
+                            </li>
+                            <li>
+                                <a href="newPlant.html">植物新品种</a>
+                            </li>
+                            <li>
+                                <a href="encyclopedia.html">树种百科</a>
+                            </li>
+                            <li>
+                                <a href="dataDownload.html">资料下载</a>
+                            </li>
+                            <li>
+                                <a href="resourceStatistics.html">种质统计</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="h_first-nav">
+                    <a href="aboutUs.html">关于我们</a>
+                    <div class="h_second-nav">
+                        <ul>
+                            <li>
+                                <a href="serverExample.html">服务案例</a>
+                            </li>
+                            <li>
+                                <a href="memberAndBase.html">会员与基地</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 背景大图 -->
+        <div class="h_bg-box">
+            <img src="img/bg_pic_border.png" alt="bg" />
+            <!-- 主要内容 -->
+            <div class="h_content-box">
+                <!-- 搜索区域 -->
+                <div class="h_search-big-box">
+                    <span>您现在的位置：<a href="#">国家林木种质资源平台</a>>><span>"全站搜索"</span></span>
+                    <div>
+                        <img src="img/before-search-ico.png" height="7" width="12" alt="图标" class="h_search-nav-ico" />
+                        <form action="" method="" class="clearfix" >
+                            <input type="text" placeholder="请输入要查询的关键字" name="">
+                            <button type="submit" class="h_submit-btn">查询</button>
+                        </form>
+                        <ul class="h_search-box-nav">
+                            <li>近义词查询</li>
+                            <li>分词查询</li>
+                            <li>模糊查询</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 表格 -->
+                <div class="h_table-box h_table-search">
+                    <ul id="h_tree-list-search">
+                        <li class="clearfix">
+                            <span>种名</span>
+                            <span>科名</span>
+                            <span>属名</span>
+                            <span>拉丁名</span>
+                            <span>树种代码</span>
+                            <span>国际编码</span>
+                            <span>详情</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+            <!-- 足部 -->
+            <div class="f_footer-box">
+                <div class="f_main-box">
+                    <p>
+                    <span>项目支持：中华人民共和国科学技术部</span>
+                    <span>主管部门：国家林业局 中国林业科学研究院</span>
+                    <span>建设单位：中国林业科学研究所等</span>
+                    </p>
+                    <div class="f_callUs-box">
+                        <span>联系我们：</span>
+                        <ul>
+                            <li>
+                                <img src="img/adress.png" height="19" width="12" alt="address" />
+                                <span>联系地址：北京市海淀区青龙桥东小府1号中国林科院林业所 </span>
+                                <span class="email-number">邮编：100091</span>
+                            </li>
+                            <li>
+                                <img src="img/pone.png" height="18" width="18" alt="phone" />
+                                <span>电话：010-62889633  </span>
+                            </li>
+                            <li>
+                                <img src="img/email.png" height="12" width="19" alt="email" />
+                                <span>邮箱：chinafgr@126.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p>国家林木种质资源平台 版权所有</p>
+                <p>Copyright 2017 National Forest Genetic Resources Plalform. Rll right reserved </p>
+            </div>
+            <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="js/nav.js"></script>
+            <script src="js/createTable.js"></script>
+            <script src="js/treeData.js"></script>
+        </body>
+    </html>

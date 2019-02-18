@@ -1,0 +1,164 @@
+.h_table-box {
+	border-top: none;
+}
+
+/**
+ * 统计表切换按钮
+ */
+.h_sm-tab-box1,
+.h_sm-tab-box {
+	text-align: center;
+	margin: 0.5rem 0;
+}
+.h_sm-tab-btn1,
+.h_sm-tab-btn {
+	display: inline-block;
+    background-color: rgb(237,237,237);
+    color: rgb(139,139,139);
+    margin-left: 0.1rem;
+    padding: 0.01rem 0.06rem;
+    border-radius: 0.03rem;
+    font-size: 0.15rem;
+    cursor: pointer;
+}
+.h_sm-tab-btn-active {
+	background: rgb(122, 198, 132);
+	color: rgb(255,255,255);
+}
+
+/**
+ * 统计表
+ */
+.h_tables {
+	border-top: 0.03rem solid rgb(122,198,131);
+	display: none;
+}
+.h_bars {
+	display: none;
+}
+/**
+ * 统计表显示与隐藏样式
+ */
+.h_tables-active {
+	display: block;
+}
+
+/**
+ * 表头
+ */
+#h_tables3 > ul > li,
+#h_tables2 > ul > li,
+#h_tables1 > ul > li,
+.h_tables > li {
+	height: 0.26rem;
+	line-height: 0.26rem;
+	font-size: 0.1278rem;
+}
+#h_tables3 > ul > li:first-child,
+#h_tables2 > ul > li:first-child,
+#h_tables1 > ul > li:first-child,
+.h_tables > li:first-child {
+	height: 0.3rem;
+    line-height: 0.3rem; 
+}
+#h_tables3 > ul > li:nth-child(odd),
+#h_tables2 > ul > li:nth-child(odd),
+#h_tables1 > ul > li:nth-child(odd),
+.h_tables > li:nth-child(odd) {
+	background-color: rgb(244,244,244);
+}
+#h_tables3 > ul > li:hover,
+#h_tables2 > ul > li:hover,
+#h_tables1 > ul > li:hover,
+.h_tables > li:hover {
+	background-color: rgb(183,211,187);
+}
+#h_tables3 > ul > li:first-child:hover,
+#h_tables2 > ul > li:first-child:hover,
+#h_tables1 > ul > li:first-child:hover,
+.h_tables > li:first-child:hover {
+	background-color: rgb(244,244,244);
+}
+#h_tables3 > ul > li > span,
+#h_tables2 > ul > li > span,
+#h_tables1 > ul > li > span,
+.h_tables > li > span {
+	float: left;
+	padding: 0 0.05rem;
+}
+#h_tables3 > ul > li > span:nth-child(1),
+#h_tables2 > ul > li > span:nth-child(1),
+#h_tables1 > ul > li > span:nth-child(1),
+.h_tables > li > span:nth-child(1) {
+	width: 0.35rem;
+	text-align: center;
+}
+
+/**
+ * 会员单位综合统计
+ */
+#h_tables0 > li > span:nth-child(2) {
+	width: 1rem;
+}
+#h_tables0 > li > span:nth-child(3) {
+	width: 5.15rem;
+}
+#h_tables0 > li > span:nth-child(4) {
+	width: 1rem;
+}
+#h_tables0 > li > span:nth-child(5) {
+	width: 1rem;
+}
+
+/**
+ * 科、属、种
+ */
+#h_tables3 > ul,
+#h_tables2 > ul,
+#h_tables1 > ul {
+	width: 2.8334rem;
+	float: left;
+	border-right: 0.01rem solid rgb(210,210,210);
+}
+#h_tables3 > ul:last-child,
+#h_tables2 > ul:last-child,
+#h_tables1 > ul:last-child {
+	border-right: none;
+}
+#h_tables3 > ul > li > span:nth-child(2),
+#h_tables2 > ul > li > span:nth-child(2),
+#h_tables1 > ul > li > span:nth-child(2) {
+	width: 1.6rem;
+	padding-left: 0.35rem;
+}
+#h_tables3 > ul > li > span:nth-child(3),
+#h_tables2 > ul > li > span:nth-child(3),
+#h_tables1 > ul > li > span:nth-child(3) {
+	width: 0.6834rem;
+}
+
+/**
+ * 科属种综合统计
+ */
+#h_tables4 > li > span:nth-child(2) {
+	width: 1rem;
+}
+#h_tables4 > li > span:nth-child(3) {
+	width: 1rem;
+}
+#h_tables4 > li > span:nth-child(4) {
+	width: 5.15rem;
+}
+#h_tables4 > li > span:nth-child(5) {
+	width: 1rem;
+}
+
+/**
+ * 统计图
+ */
+.h_bars {
+	width: 8rem;
+	height: 12rem;
+	margin: 0 auto;
+	position: absolute;
+}

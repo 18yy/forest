@@ -1,0 +1,159 @@
+.h_header-box,
+.h_nav-box,
+.h_big-img-box {
+    width: 100%;
+}
+
+/**
+ * 首页顶部
+ */
+.h_header-box {
+    height: 0.75rem;
+    position: relative;
+}
+.h_header-box > img {
+    width: 100%;
+    height: 100%;
+}
+.h_big-img-box > div,
+.h_login-register-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.h_login-register-box {
+    right: 0.4rem;
+}
+.h_nav-box > ul,
+.h_login-register-box {
+    font-size: 0.18rem;
+    font-family: '微軟正黑體','Microsoft Yahei';
+    color: rgb(56,56,56);
+}
+.h_login-register-box > a {
+    color: rgb(56,56,56);
+}
+.h_login-register-box > a:hover {
+    color: rgb(122,198,131);
+}
+
+/**
+ * 导航栏
+ */
+.h_nav-box {
+    height: 0.57rem;
+    background-color: rgb(217,217,217);
+}
+.h_nav-box > ul {
+    float: right;
+    right: 0.15rem;
+}
+/*一级菜单*/
+.h_first-nav {
+    float: left;
+    width: 1.4rem;
+    height: 0.57rem;
+    line-height: 0.57rem;
+    text-align: center;
+}
+.h_first-nav > a {
+    display: block;
+    color: rgb(56,56,56);
+    position: relative;
+}
+.h_first-nav > a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 0.01rem solid rgb(0,0,0);
+    position: absolute;
+    bottom: 0.12rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.h_first-nav > a,
+.h_first-nav > a:after,
+.h_second-nav li > a {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+/*二级菜单*/
+.h_second-nav {
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+    top: 0.5rem;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.h_second-nav li {
+    height: 0.44rem;
+    line-height: 0.44rem;
+}
+.h_second-nav li > a {
+    display: block;
+    color: rgb(255,255,255);
+}
+.h_second-nav-active {
+    opacity: 1;
+    top: 0;
+    z-index: 20;
+}
+
+/**
+ * 一级菜单hover样式
+ */
+.h_first-nav > a:hover {
+    background-color: rgb(255,255,255);
+}
+.h_first-nav > a:hover:after {
+    width: 0.8rem;
+}
+
+/**
+ * 二级菜单hover样式
+ */
+.h_second-nav li > a:hover {
+    background-color: rgb(122,198,131);
+}
+
+/**
+ * 菜单active样式
+ */
+.h_first-nav-active {
+    background-color: rgb(255,255,255);
+}
+
+
+/**
+ * 背景大图
+ */
+.h_big-img-box {
+    background-color: rgb(23,57,53);
+    /*position: relative;*/
+}
+.h_big-img-box > img {
+    width: 100%;
+    height: auto;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+.h_active {
+        background-color: rgb(122,198,131);
+}

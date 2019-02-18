@@ -1,0 +1,130 @@
+var news = [{
+    "JSON_info_title": "永州古树名木总量近3万株",
+    "JSON_publish_date": "2017-11-30",
+    "JSON_info_keywords": "古树名木,资源存量，湖南永州"
+}, {
+    "JSON_info_title": "湖南油茶迎来丰收年",
+    "JSON_publish_date": "2017-11-30",
+    "JSON_info_keywords": "油茶,丰收,湖南"
+}, {
+    "JSON_info_title": "森林生态，逾越了“木头经济”",
+    "JSON_publish_date": "2017-11-29",
+    "JSON_info_keywords": "森林生态；森林资源"
+}, {
+    "JSON_info_title": "坚定信心着力推进油茶产业振兴发展——访湖南省邵阳县县长袁玉华",
+    "JSON_publish_date": "2017-11-29",
+    "JSON_info_keywords": "邵阳；林业产业；油茶"
+}, {
+    "JSON_info_title": "第十三届中国竹业学术大会召开",
+    "JSON_publish_date": "2017-11-29",
+    "JSON_info_keywords": "第十三届,中国竹业,学术大会召开"
+}, {
+    "JSON_info_title": "主要林木品种审定办法",
+    "JSON_publish_date": "2017-10-31",
+    "JSON_info_keywords": "林木品种；法规"
+}, {
+    "JSON_info_title": "林木种子《云南省林木种子条例》2017年1月起施行",
+    "JSON_publish_date": "2016-12-22",
+    "JSON_info_keywords": "种子法；林木种质资源；云南"
+}, {
+    "JSON_info_title": "新《种子法》对我国植物新品种保护的积极作用与局限（三） ",
+    "JSON_publish_date": "2016-09-29",
+    "JSON_info_keywords": "植物新品种；保护；法律"
+}, {
+    "JSON_info_title": "新《种子法》对我国植物新品种保护的积极作用与局限（二）",
+    "JSON_publish_date": "2016-09-29",
+    "JSON_info_keywords": "植物新品种；保护；法律"
+}, {
+    "JSON_info_title": "新《种子法》对我国植物新品种保护的积极作用与局限（一）",
+    "JSON_publish_date": "2016-09-29",
+    "JSON_info_keywords": "植物新品种；保护；法律"
+}, {
+    "JSON_info_title": "打造田园综合体适合选用哪些植物?",
+    "JSON_publish_date": "2017-08-29",
+    "JSON_info_keywords": "树种选择；生态；园林"
+}, {
+    "JSON_info_title": "核桃是隐藏减脂神器?研究称核桃可抑制食欲",
+    "JSON_publish_date": "2017-08-22",
+    "JSON_info_keywords": "核桃；林业产业；经济林"
+}, {
+    "JSON_info_title": "立秋后花卉要怎么管理?",
+    "JSON_publish_date": "2017-08-21",
+    "JSON_info_keywords": "花卉；管理"
+}, {
+    "JSON_info_title": "森林更新",
+    "JSON_publish_date": "2017-06-29",
+    "JSON_info_keywords": "森林更新；更新技术"
+}, {
+    "JSON_info_title": "六大林业重点工程",
+    "JSON_publish_date": "2017-06-29",
+    "JSON_info_keywords": "林业工程；生态工程"
+}, {
+    "JSON_info_title": "林木遗传资源通讯第6期",
+    "JSON_publish_date": "2015-04-24",
+    "JSON_info_keywords": "林木遗传资源通讯第6期"
+}, {
+    "JSON_info_title": "林木遗传资源通讯第5期",
+    "JSON_publish_date": "2014-08-06",
+    "JSON_info_keywords": "林木遗传资源通讯第5期"
+}, {
+    "JSON_info_title": "林木遗传资源通讯第4期",
+    "JSON_publish_date": "2014-05-28",
+    "JSON_info_keywords": "林木遗传资源通讯"
+}, {
+    "JSON_info_title": "林木遗传资源通讯第3期",
+    "JSON_publish_date": "2014-05-28",
+    "JSON_info_keywords": "林木遗传资源通讯"
+}, {
+    "JSON_info_title": "林木遗传资源通讯第2期",
+    "JSON_publish_date": "2014-05-28",
+    "JSON_info_keywords": "林木遗传资源通讯"
+}, {
+    "JSON_info_title": "“十三五”育种重大专项推广示范实施工作推进会召开",
+    "JSON_publish_date": "2017-11-28",
+    "JSON_info_keywords": "林木育种；种质资源"
+}, {
+    "JSON_info_title": "无絮黑杨新品种选育与示范推广",
+    "JSON_publish_date": "2017-11-24",
+    "JSON_info_keywords": "无絮黑杨；林木新品种；示范推广"
+}, {
+    "JSON_info_title": "科技帮扶：让陇南油橄榄产业壮大",
+    "JSON_publish_date": "2017-11-09",
+    "JSON_info_keywords": "油橄榄；林业产业"
+}, {
+    "JSON_info_title": "第三届中国珍贵树种学术研讨会在长沙召开",
+    "JSON_publish_date": "2017-11-09",
+    "JSON_info_keywords": "珍贵树种；种质资源"
+}, {
+    "JSON_info_title": "“重要树种种质资源保存与可持续利用关键技术研究”项目通过验收",
+    "JSON_publish_date": "2017-11-09",
+    "JSON_info_keywords": "林木种质资源；保存；可持续利用"
+}, {
+    "JSON_info_title": "没有臭味的“柽柳叶”沙地柏前景看好",
+    "JSON_publish_date": "2017-08-18",
+    "JSON_info_keywords": "沙地柏；树种选择"
+}, {
+    "JSON_info_title": "林木引种主要技术和方法",
+    "JSON_publish_date": "2017-06-29",
+    "JSON_info_keywords": "林木引种；方法"
+}, {
+    "JSON_info_title": "北美栎树江西引种成功",
+    "JSON_publish_date": "2017-06-02",
+    "JSON_info_keywords": "北美栎树；林木引种"
+}, {
+    "JSON_info_title": "美国橡树专家到上海市考察北美栎树发展现状",
+    "JSON_publish_date": "2017-06-01",
+    "JSON_info_keywords": "橡树；繁育技术；上海"
+}, {
+    "JSON_info_title": "阿月浑子的栽培与利用",
+    "JSON_publish_date": "2017-06-01",
+    "JSON_info_keywords": "阿月浑子；栽培技术；引种"
+}];
+$(function(){
+    var newsList  = $('.l_news-boxs');
+    for(var i=0; i<news.length; i++){
+        // alert('ok');
+        newsList.eq(i).children('a').html(news[i].JSON_info_title);
+        newsList.eq(i).children('p').eq(0).children('span').eq(1).html(news[i].JSON_publish_date);
+        newsList.eq(i).children('p').eq(1).children('span').eq(1).html(news[i].JSON_info_keywords);
+    }
+});
